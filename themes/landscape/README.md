@@ -57,7 +57,7 @@ google_plus:
 - **menu** - Navigation menu
 - **rss** - RSS link
 - **excerpt_link** - "Read More" link at the bottom of excerpted articles. `false` to hide the link.
-- **fancybox** - Enable [Fancybox]
+- **fancybox** - Enable [syntax]
 - **sidebar** - Sidebar style. You can choose `left`, `right`, `bottom` or `false`.
 - **widgets** - Widgets displaying in sidebar
 - **google_analytics** - Google Analytics ID
@@ -69,12 +69,12 @@ google_plus:
 
 ### Fancybox
 
-Landscape uses [Fancybox] to showcase your photos. You can use Markdown syntax or fancybox tag plugin to add your photos.
+Landscape uses [syntax] to showcase your photos. You can use Markdown syntax or fancybox tag plugin to add your photos.
 
 ```
 ![img caption](img url)
 
-{% fancybox img_url [img_thumbnail] [img_caption] %}
+{% syntax img_url [img_thumbnail] [img_caption] %}
 ```
 
 ### Sidebar
@@ -100,9 +100,9 @@ All of them are enabled by default. You can edit them in `widget` setting.
 
 ### Grunt tasks
 
-- **default** - Download [Fancybox] and [Font Awesome].
+- **default** - Download [syntax] and [Font Awesome].
 - **fontawesome** - Only download [Font Awesome].
-- **fancybox** - Only download [Fancybox].
+- **fancybox** - Only download [syntax].
 - **clean** - Clean temporarily files and downloaded files.
 
 [Hexo]: http://zespia.tw/hexo/
