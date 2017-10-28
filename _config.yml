@@ -76,6 +76,6 @@ theme: yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: git@github.com:philos3/philos3.github.io.git//philos3
+deploy: git@github.com:philos3/philos3.github.io.git
 type: git
 branch: master
